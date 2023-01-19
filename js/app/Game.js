@@ -3,13 +3,13 @@ Creator: Artur Brytkowski
 https://www.fiverr.com/arturbrytkowski
 */
 
-import * as THREE from '/js/lib/three.js-master/build/three.module.js';
+import * as THREE from '../lib/three.js-master/build/three.module.js';
 
 import * as threeTools from './ThreeTools.js';
 
 threeTools.init(THREE);
 
-import {GLTFLoader} from'/js/lib/three.js-master/examples/jsm/loaders/GLTFLoader.js';
+import {GLTFLoader} from'../lib/three.js-master/examples/jsm/loaders/GLTFLoader.js';
 
 import UI from './UI.js';
 import GameEngine from './GameEngine.js';

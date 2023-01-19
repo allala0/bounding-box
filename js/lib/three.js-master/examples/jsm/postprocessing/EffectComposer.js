@@ -6,7 +6,7 @@ import {
 	OrthographicCamera,
 	Vector2,
 	WebGLRenderTarget
-} from '/js/lib/three.js-master/build/three.module.js';
+} from '../../../build/three.module.js';
 import { CopyShader } from '../shaders/CopyShader.js';
 import { ShaderPass } from './ShaderPass.js';
 import { MaskPass } from './MaskPass.js';

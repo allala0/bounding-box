@@ -3,9 +3,9 @@ Creator: Artur Brytkowski
 https://www.fiverr.com/arturbrytkowski
 */
 
-import * as THREE from '/js/lib/three.js-master/build/three.module.js';
+import * as THREE from '../lib/three.js-master/build/three.module.js';
 
-import {CSG} from "/js/lib/THREE-CSGMesh/dist/client/CSGMesh.js";
+import {CSG} from "../lib/THREE-CSGMesh/dist/client/CSGMesh.js";
 
 const doCSG = function(a,b,op,mat){
     let bspA = CSG.fromMesh( a );

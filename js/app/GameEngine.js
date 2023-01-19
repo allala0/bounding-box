@@ -3,13 +3,13 @@ Creator: Artur Brytkowski
 https://www.fiverr.com/arturbrytkowski
 */
 
-import * as THREE from '/js/lib/three.js-master/build/three.module.js';
+import * as THREE from '../lib/three.js-master/build/three.module.js';
 
-import {EffectComposer} from '/js/lib/three.js-master/examples/jsm/postprocessing/EffectComposer.js';
-import {RenderPass} from '/js/lib/three.js-master/examples/jsm/postprocessing/RenderPass.js';
-import {ShaderPass} from '/js/lib/three.js-master/examples/jsm/postprocessing/ShaderPass.js';
-import {FXAAShader} from '/js/lib/three.js-master/examples/jsm/shaders/FXAAShader.js';
-import {SMAAPass} from '/js/lib/three.js-master/examples/jsm/postprocessing/SMAAPass.js';
+import {EffectComposer} from '../lib/three.js-master/examples/jsm/postprocessing/EffectComposer.js';
+import {RenderPass} from '../lib/three.js-master/examples/jsm/postprocessing/RenderPass.js';
+import {ShaderPass} from '../lib/three.js-master/examples/jsm/postprocessing/ShaderPass.js';
+import {FXAAShader} from '../lib/three.js-master/examples/jsm/shaders/FXAAShader.js';
+import {SMAAPass} from '../lib/three.js-master/examples/jsm/postprocessing/SMAAPass.js';
 
 import {OrbitControls} from '../lib/three.js-master/examples/jsm/controls/OrbitControls.js'
 import {TrackballControls} from '../lib/three.js-master/examples/jsm/controls/TrackballControls.js'
